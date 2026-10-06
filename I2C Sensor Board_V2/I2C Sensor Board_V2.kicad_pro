@@ -674,16 +674,16 @@
       {
         "filename": "I2C Sensor Board_V2.kicad_sch",
         "name": "I2C Sensor Board_V2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR14,#PWR160-164,D13-14,R26,Q5,TP15-21",
     "variants": []
   },
   "sheets": [
     [
       "90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e",
-      "Root"
+      "I2C Sensor Board_V2"
     ],
     [
       "19b9ae8b-fcb0-4903-b4e9-ba40e7b17a0d",

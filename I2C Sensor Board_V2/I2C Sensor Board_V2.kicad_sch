@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "TestPoint"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,47 +40,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_0_1"
@@ -119,8 +135,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -129,6 +149,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -137,47 +159,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -206,7 +238,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c3b12982-3758-430c-b177-ffef6a4c426f)
+		(uuid "c3b12982-3758-430c-b177-ffef6a4c426f")
 	)
 	(text "Corner Mounting Holes\n"
 		(exclude_from_sim no)
@@ -232,13 +264,13 @@
 		(uuid "16eb9cae-5506-484d-964c-b2898760fcaf")
 	)
 	(junction
-		(at 76.2 58.42)
+		(at 76.2 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "565a4984-c3a5-4f88-9d70-7a71ac83ec3c")
 	)
 	(junction
-		(at 76.2 72.39)
+		(at 76.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f64a67-1e49-4e74-8480-f96aa29be3a3")
@@ -250,7 +282,7 @@
 		(uuid "644bae3c-b11e-47d3-8877-860b2c4b7502")
 	)
 	(junction
-		(at 76.2 26.67)
+		(at 76.2 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "666ebd0b-42f7-4ec2-a532-3743d3fc03eb")
@@ -262,7 +294,7 @@
 		(uuid "758fa78a-ad2e-4e77-aa50-e801c413aa6e")
 	)
 	(junction
-		(at 63.5 29.21)
+		(at 63.5 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7911635f-d34c-454c-83e1-70bab76f836e")
@@ -280,7 +312,7 @@
 		(uuid "9dc231ed-866f-4c20-8b19-74d0b1a6f677")
 	)
 	(junction
-		(at 73.66 74.93)
+		(at 73.66 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0ba30a2-b6a1-4470-a882-1c814a9ecbe5")
@@ -292,7 +324,7 @@
 		(uuid "b1dd06d7-db8b-4878-927f-ff4a9f5af166")
 	)
 	(junction
-		(at 73.66 29.21)
+		(at 73.66 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3595813-f6ec-437c-8626-cfc683f11b96")
@@ -304,7 +336,7 @@
 		(uuid "b6ecf199-61e8-443a-80c9-8fb35f73897a")
 	)
 	(junction
-		(at 71.12 26.67)
+		(at 71.12 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3a1a3b0-edf0-4259-ae10-bfac6d72203d")
@@ -316,7 +348,7 @@
 		(uuid "ddef339f-363b-4c26-8c3f-c28f88718f6a")
 	)
 	(junction
-		(at 73.66 60.96)
+		(at 73.66 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b384b8-3ac9-4575-a962-440717e271c8")
@@ -339,17 +371,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05048f67-c745-4485-a6cf-50885a2cbfc4")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 76.2 72.39)
+			(xy 105.41 55.88) (xy 76.2 55.88)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +391,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 25.4) (xy 63.5 29.21)
+			(xy 63.5 22.86) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +401,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 71.12 26.67)
+			(xy 48.26 24.13) (xy 71.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -396,16 +418,6 @@
 			(type default)
 		)
 		(uuid "35be74cf-92e2-4460-9325-9d68eba142b3")
-	)
-	(wire
-		(pts
-			(xy 73.66 29.21) (xy 73.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ac2a8a-ba88-490e-8119-4e77da3694a0")
 	)
 	(wire
 		(pts
@@ -439,7 +451,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 26.67) (xy 105.41 26.67)
+			(xy 76.2 24.13) (xy 105.41 24.13)
 		)
 		(stroke
 			(width 0)
@@ -479,6 +491,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 26.67) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568673e4-c0a7-428a-8dae-9f91d2dec750")
+	)
+	(wire
+		(pts
 			(xy 105.41 144.78) (xy 73.66 144.78)
 		)
 		(stroke
@@ -489,7 +511,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 105.41 45.72)
+			(xy 48.26 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +541,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 29.21) (xy 105.41 29.21)
+			(xy 73.66 26.67) (xy 105.41 26.67)
 		)
 		(stroke
 			(width 0)
@@ -549,17 +571,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 26.67) (xy 76.2 58.42)
+			(xy 48.26 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ca4bdde-de1b-4de0-8b13-c72eb1a8e8d6")
+		(uuid "77f217c8-acff-43bc-9b29-b86727523171")
 	)
 	(wire
 		(pts
-			(xy 71.12 25.4) (xy 71.12 26.67)
+			(xy 71.12 22.86) (xy 71.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 105.41 35.56)
+			(xy 48.26 33.02) (xy 105.41 33.02)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 26.67) (xy 76.2 26.67)
+			(xy 71.12 24.13) (xy 76.2 24.13)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +631,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 73.66 29.21)
+			(xy 105.41 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddba13e-0bc5-4580-bc09-60540e08dda4")
+	)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 73.66 26.67)
 		)
 		(stroke
 			(width 0)
@@ -619,17 +651,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 76.2 72.39)
+			(xy 71.12 60.96) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad7c8609-93cb-46e8-9aff-ed2ba2a26315")
+		(uuid "a7d77f9d-6a67-4640-a9dc-2544cd78b835")
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 105.41 60.96)
+			(xy 73.66 74.93) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -659,23 +691,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 29.21) (xy 63.5 29.21)
+			(xy 48.26 26.67) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c546bb1e-7051-430e-80ca-da7dd9fdbcbe")
-	)
-	(wire
-		(pts
-			(xy 73.66 74.93) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6021a04-4ff3-4b44-b075-dad229a414e7")
 	)
 	(wire
 		(pts
@@ -689,6 +711,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 24.13) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db595a86-f63c-4943-929a-6509f4b67b7a")
+	)
+	(wire
+		(pts
 			(xy 105.41 142.24) (xy 76.2 142.24)
 		)
 		(stroke
@@ -696,16 +728,6 @@
 			(type default)
 		)
 		(uuid "e7225e3f-b4a7-4550-8dcf-0faa0fb07934")
-	)
-	(wire
-		(pts
-			(xy 73.66 60.96) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf7b69f-0924-4474-a02b-72264e7e5f83")
 	)
 	(wire
 		(pts
@@ -719,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 74.93) (xy 105.41 74.93)
+			(xy 73.66 58.42) (xy 105.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 76.2 58.42)
+			(xy 105.41 72.39) (xy 76.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -751,14 +773,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 29.21 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03186d47-e6ce-4b55-b2cd-8fcbccef5f1e")
 		(property "Reference" "H4"
 			(at 31.75 136.136 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,6 +794,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 31.75 138.184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,29 +805,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 29.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 29.21 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -813,15 +847,19 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 63.5 25.4 0)
+		(at 63.5 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d645ff3-676e-41a5-86b6-243754d6ee0c")
 		(property "Reference" "TP1"
-			(at 57.15 16.51 0)
+			(at 57.15 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +868,9 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 57.15 19.05 0)
+			(at 57.15 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,30 +879,36 @@
 			)
 		)
 		(property "Footprint" "Created:Testpoint_5019_HandSolder"
-			(at 68.58 25.4 0)
+			(at 68.58 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 25.4 0)
+		(property "Datasheet" ""
+			(at 68.58 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 63.5 25.4 0)
+			(at 63.5 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -881,14 +927,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 29.21 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a96b1ba-3716-437f-b5a4-e2650649054d")
 		(property "Reference" "H2"
 			(at 31.75 123.436 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,6 +948,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 31.75 125.484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,29 +959,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 29.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 29.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -945,14 +1003,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 29.21 130.81 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d01ddc-db12-4470-a988-f98f7d773b6e")
 		(property "Reference" "H3"
 			(at 31.75 129.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,6 +1024,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 31.75 131.834 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,29 +1035,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 29.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 29.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1009,14 +1079,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 29.21 118.11 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa43d9b-54c3-4e5e-9f53-da21b850cb73")
 		(property "Reference" "H1"
 			(at 31.75 117.086 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,6 +1100,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 31.75 119.134 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,29 +1111,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 29.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 29.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1071,15 +1153,19 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 71.12 25.4 0)
+		(at 71.12 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f54f558-4d1b-44fa-85f9-1b8a459c9d12")
 		(property "Reference" "TP2"
-			(at 66.04 16.51 0)
+			(at 71.12 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1174,9 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 66.04 19.05 0)
+			(at 71.12 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,30 +1185,36 @@
 			)
 		)
 		(property "Footprint" "Created:Testpoint_5019_HandSolder"
-			(at 76.2 25.4 0)
+			(at 76.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 76.2 25.4 0)
+		(property "Datasheet" ""
+			(at 76.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 71.12 25.4 0)
+			(at 71.12 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1148,11 +1242,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0423e4ce-c160-4af2-a4bd-27738fd08343")
 		(property "Sheetname" "RGB"
 			(at 105.41 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,6 +1258,8 @@
 		)
 		(property "Sheetfile" "RGB.kicad_sch"
 			(at 105.41 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,11 +1308,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0fb9c926-39c5-4a8c-9d2a-0cfcbd5bc3b9")
 		(property "Sheetname" "16x2 LCD"
 			(at 105.41 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,6 +1324,8 @@
 		)
 		(property "Sheetfile" "16x2_LCD.kicad_sch"
 			(at 105.41 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,11 +1335,13 @@
 		)
 		(property "Field2" ""
 			(at 105.41 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "SCL" input
@@ -1269,8 +1373,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 69.85)
-		(size 25.4 7.62)
+		(at 105.41 53.34)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1281,11 +1385,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "179e7496-0f0c-4171-9c9c-30721a1f82b9")
 		(property "Sheetname" "Mode Select"
-			(at 105.41 69.1384 0)
+			(at 105.41 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1400,9 @@
 			)
 		)
 		(property "Sheetfile" "Mode_Select.kicad_sch"
-			(at 105.41 78.0546 0)
+			(at 105.41 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1411,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 105.41 74.93 180)
+			(at 105.41 58.42 180)
 			(uuid "ef8fb8d0-bef6-4336-93d3-fb3ce8cd70da")
 			(effects
 				(font
@@ -1312,9 +1420,19 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" input
-			(at 105.41 72.39 180)
+		(pin "SDA" output
+			(at 105.41 55.88 180)
 			(uuid "ccde0e2b-360c-4a9e-8d49-0abe60d16e49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 105.41 60.96 180)
+			(uuid "305b8252-a309-4ef2-9c80-c98ae34a4ad2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1449,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 24.13)
+		(at 22.86 21.59)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1343,11 +1461,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "19b9ae8b-fcb0-4903-b4e9-ba40e7b17a0d")
 		(property "Sheetname" "MCU"
-			(at 22.86 23.4184 0)
+			(at 22.86 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1476,9 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 22.86 50.1146 0)
+			(at 22.86 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1487,7 @@
 			)
 		)
 		(pin "Heat" output
-			(at 48.26 35.56 0)
+			(at 48.26 33.02 0)
 			(uuid "ed35580d-56f6-4b6d-a702-a18839f328e8")
 			(effects
 				(font
@@ -1375,7 +1497,7 @@
 			)
 		)
 		(pin "Fan" output
-			(at 48.26 45.72 0)
+			(at 48.26 38.1 0)
 			(uuid "a615dee9-8a5f-44c3-a40e-3a556d3bfbbc")
 			(effects
 				(font
@@ -1385,7 +1507,7 @@
 			)
 		)
 		(pin "SDA" output
-			(at 48.26 26.67 0)
+			(at 48.26 24.13 0)
 			(uuid "eed790e6-453a-4e8e-9e74-a45d9755f377")
 			(effects
 				(font
@@ -1395,8 +1517,18 @@
 			)
 		)
 		(pin "SCL" output
-			(at 48.26 29.21 0)
+			(at 48.26 26.67 0)
 			(uuid "d95aeb2f-e76c-4d09-9587-2738e9152abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" input
+			(at 48.26 43.18 0)
+			(uuid "1c5cc53e-9b82-4c97-b042-f0ea6ff90249")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1545,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 55.88)
+		(at 105.41 69.85)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1425,11 +1557,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "57611136-af7d-4624-9b72-810bd01622a0")
 		(property "Sheetname" "EEPROM"
-			(at 105.41 55.1684 0)
+			(at 105.41 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1572,9 @@
 			)
 		)
 		(property "Sheetfile" "EEPROM.kicad_sch"
-			(at 105.41 64.0846 0)
+			(at 105.41 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1583,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 105.41 58.42 180)
+			(at 105.41 72.39 180)
 			(uuid "73fb2f69-51c3-4de0-906c-779de308c254")
 			(effects
 				(font
@@ -1457,7 +1593,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 105.41 60.96 180)
+			(at 105.41 74.93 180)
 			(uuid "b5caffcb-1f9f-409f-a184-1b7c7b0ade6c")
 			(effects
 				(font
@@ -1487,11 +1623,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "784ecf23-acb9-4a3e-96f7-f1bac12c22f6")
 		(property "Sheetname" "DAC"
 			(at 105.41 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,6 +1639,8 @@
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
 			(at 105.41 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,11 +1689,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "849c450e-4625-45de-8bb3-169043ccaec9")
 		(property "Sheetname" "ADC"
 			(at 105.41 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,6 +1705,8 @@
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
 			(at 105.41 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,11 +1755,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8f64f6fa-d74f-48c0-a677-44b908dc5eac")
 		(property "Sheetname" "RTC"
 			(at 105.41 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,6 +1771,8 @@
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
 			(at 105.41 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,11 +1782,13 @@
 		)
 		(property "Field2" ""
 			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "SDA" input
@@ -1682,11 +1832,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c0d2c8c5-43a6-4565-8883-c9bfcfec40ab")
 		(property "Sheetname" "MCP9808"
 			(at 105.41 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,6 +1848,8 @@
 		)
 		(property "Sheetfile" "MCP9808.kicad_sch"
 			(at 105.41 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1886,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 24.13)
+		(at 105.41 21.59)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1744,11 +1898,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f088577b-4e14-4bb5-a088-4497f10964b7")
 		(property "Sheetname" "LM75 + LED + Fan"
-			(at 105.41 23.4184 0)
+			(at 105.41 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1913,9 @@
 			)
 		)
 		(property "Sheetfile" "LM75.kicad_sch"
-			(at 105.41 50.1146 0)
+			(at 105.41 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1924,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 105.41 29.21 180)
+			(at 105.41 26.67 180)
 			(uuid "2c2d8d84-fb61-4407-8e5e-987e6ee7ecd2")
 			(effects
 				(font
@@ -1776,7 +1934,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 105.41 26.67 180)
+			(at 105.41 24.13 180)
 			(uuid "74c547ab-a876-454d-91bc-698d4fe7d383")
 			(effects
 				(font
@@ -1786,7 +1944,7 @@
 			)
 		)
 		(pin "Heat" input
-			(at 105.41 35.56 180)
+			(at 105.41 33.02 180)
 			(uuid "8710cc8b-81b3-4be0-8342-bf26e990af6b")
 			(effects
 				(font
@@ -1796,7 +1954,7 @@
 			)
 		)
 		(pin "Fan" input
-			(at 105.41 45.72 180)
+			(at 105.41 38.1 180)
 			(uuid "13b553c2-c20c-4444-88bd-0a9043058bd4")
 			(effects
 				(font
