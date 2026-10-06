@@ -1,0 +1,1822 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 25.4 114.3)
+		(end 48.26 142.24)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3b12982-3758-430c-b177-ffef6a4c426f)
+	)
+	(text "Corner Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 25.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0786ded4-a420-4271-a6ed-d371c26f907f")
+	)
+	(junction
+		(at 76.2 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12cb6fd2-f99b-4dd7-b691-9d907af03130")
+	)
+	(junction
+		(at 73.66 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16eb9cae-5506-484d-964c-b2898760fcaf")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565a4984-c3a5-4f88-9d70-7a71ac83ec3c")
+	)
+	(junction
+		(at 76.2 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f64a67-1e49-4e74-8480-f96aa29be3a3")
+	)
+	(junction
+		(at 73.66 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644bae3c-b11e-47d3-8877-860b2c4b7502")
+	)
+	(junction
+		(at 76.2 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "666ebd0b-42f7-4ec2-a532-3743d3fc03eb")
+	)
+	(junction
+		(at 73.66 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758fa78a-ad2e-4e77-aa50-e801c413aa6e")
+	)
+	(junction
+		(at 63.5 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7911635f-d34c-454c-83e1-70bab76f836e")
+	)
+	(junction
+		(at 76.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eed15a3-8477-4fbd-a327-ef22c770ed70")
+	)
+	(junction
+		(at 76.2 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc231ed-866f-4c20-8b19-74d0b1a6f677")
+	)
+	(junction
+		(at 73.66 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ba30a2-b6a1-4470-a882-1c814a9ecbe5")
+	)
+	(junction
+		(at 73.66 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1dd06d7-db8b-4878-927f-ff4a9f5af166")
+	)
+	(junction
+		(at 73.66 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3595813-f6ec-437c-8626-cfc683f11b96")
+	)
+	(junction
+		(at 73.66 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ecf199-61e8-443a-80c9-8fb35f73897a")
+	)
+	(junction
+		(at 71.12 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a1a3b0-edf0-4259-ae10-bfac6d72203d")
+	)
+	(junction
+		(at 76.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddef339f-363b-4c26-8c3f-c28f88718f6a")
+	)
+	(junction
+		(at 73.66 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b384b8-3ac9-4575-a962-440717e271c8")
+	)
+	(junction
+		(at 76.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4316640-1ede-483d-be20-9bb752d68319")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003904ad-e260-4841-9679-4cfaae1873c1")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05048f67-c745-4485-a6cf-50885a2cbfc4")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062a7b5f-1c0f-4a51-b793-7b37e89a0713")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a37fc57-16a3-43f8-9fd1-67dea6651e46")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b510518-8557-4ac9-992a-8ef2d38a86d0")
+	)
+	(wire
+		(pts
+			(xy 48.26 26.67) (xy 71.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2941eaf6-902d-49ed-a5e9-7271c525fc46")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35be74cf-92e2-4460-9325-9d68eba142b3")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ac2a8a-ba88-490e-8119-4e77da3694a0")
+	)
+	(wire
+		(pts
+			(xy 105.41 158.75) (xy 73.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c6333f-7663-492d-bf4b-d062726d7daa")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403c7c1a-b3c2-4e0e-8341-9f957e258587")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439f21e3-a1b0-456f-aec2-9f41c3aa1660")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8b2080-17da-42d7-bca0-e56161e31336")
+	)
+	(wire
+		(pts
+			(xy 73.66 102.87) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7a92c9-cdea-4ddd-9e7a-2c56482754f0")
+	)
+	(wire
+		(pts
+			(xy 73.66 144.78) (xy 73.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501b4c96-daef-472c-9b98-e3e7e5cee349")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5350c960-f0c0-4e8e-b504-9993e4460e44")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57817cd6-a639-4810-8d09-7375d9ca0915")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 105.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61143579-c992-4e5d-8ce1-d6c906e569c9")
+	)
+	(wire
+		(pts
+			(xy 76.2 128.27) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6358f89c-2f3c-4c01-9f44-265e44b00eec")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.27) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cbb038-bfee-4220-966d-d59be863fd61")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 105.41 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6768910a-dd8a-40c4-84a7-bb02524560e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c6a638-2c7f-43f9-b107-ee02c4cb8359")
+	)
+	(wire
+		(pts
+			(xy 73.66 102.87) (xy 73.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df6caee-d899-4e95-baa5-4f5dddff3574")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca4bdde-de1b-4de0-8b13-c72eb1a8e8d6")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 71.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf17aa6-565d-4384-89c8-4780559a064a")
+	)
+	(wire
+		(pts
+			(xy 105.41 156.21) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910684cc-a1a3-4879-a094-1808be740cbc")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956837f8-09ee-4a78-b3f6-7077c7a6878f")
+	)
+	(wire
+		(pts
+			(xy 71.12 26.67) (xy 76.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9574752a-777d-4fbc-8d68-6097a7d1d4e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 73.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aadf2c5-793f-4a4f-bc69-6e02ef45e7c9")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 73.66 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e8f049-ec0a-4d20-b17a-f02b772f0fc1")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7c8609-93cb-46e8-9aff-ed2ba2a26315")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3355fa8-d3f6-4086-83ca-8e5c13c1cdde")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7088ce-6d1a-494b-a733-7b8f29a00653")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46cc768-c67e-499f-be93-0d79003fd7c5")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c546bb1e-7051-430e-80ca-da7dd9fdbcbe")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6021a04-4ff3-4b44-b075-dad229a414e7")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4f245f-7f14-4c47-8480-91476ecf396d")
+	)
+	(wire
+		(pts
+			(xy 105.41 142.24) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7225e3f-b4a7-4550-8dcf-0faa0fb07934")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf7b69f-0924-4474-a02b-72264e7e5f83")
+	)
+	(wire
+		(pts
+			(xy 76.2 100.33) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7de8ca-7a12-4a53-b08d-883e68e3194d")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f139b0b0-7f58-4a0c-a9b3-230f4be94894")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1941092-ad95-4075-8e04-e3f49e787c71")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f936af1e-2881-4794-b4ad-3729bef70eac")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 29.21 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03186d47-e6ce-4b55-b2cd-8fcbccef5f1e")
+		(property "Reference" "H4"
+			(at 31.75 136.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 31.75 138.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d645ff3-676e-41a5-86b6-243754d6ee0c")
+		(property "Reference" "TP1"
+			(at 57.15 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Created:Testpoint_5019_HandSolder"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44d6339b-e63a-499a-9387-bed69e8afdce")
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 29.21 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a96b1ba-3716-437f-b5a4-e2650649054d")
+		(property "Reference" "H2"
+			(at 31.75 123.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 31.75 125.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 29.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 29.21 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57d01ddc-db12-4470-a988-f98f7d773b6e")
+		(property "Reference" "H3"
+			(at 31.75 129.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 31.75 131.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 29.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 29.21 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa43d9b-54c3-4e5e-9f53-da21b850cb73")
+		(property "Reference" "H1"
+			(at 31.75 117.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 31.75 119.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f54f558-4d1b-44fa-85f9-1b8a459c9d12")
+		(property "Reference" "TP2"
+			(at 66.04 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Created:Testpoint_5019_HandSolder"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f55c5adb-59d5-4ca2-9aed-3557ff653761")
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 153.67)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0423e4ce-c160-4af2-a4bd-27738fd08343")
+		(property "Sheetname" "RGB"
+			(at 105.41 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 105.41 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 156.21 180)
+			(uuid "5db4dad2-1a75-4fb6-9adb-30c2c25030d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 158.75 180)
+			(uuid "e8c137e5-064e-497c-bd02-ce52f1b2a973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 111.76)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fb9c926-39c5-4a8c-9d2a-0cfcbd5bc3b9")
+		(property "Sheetname" "16x2 LCD"
+			(at 105.41 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16x2_LCD.kicad_sch"
+			(at 105.41 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 105.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 116.84 180)
+			(uuid "b124c265-988d-4b3b-b095-c63b83cbcf44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 114.3 180)
+			(uuid "b721bbb8-c609-493e-9307-03d7a8d2d343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 69.85)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "179e7496-0f0c-4171-9c9c-30721a1f82b9")
+		(property "Sheetname" "Mode Select"
+			(at 105.41 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mode_Select.kicad_sch"
+			(at 105.41 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 74.93 180)
+			(uuid "ef8fb8d0-bef6-4336-93d3-fb3ce8cd70da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 72.39 180)
+			(uuid "ccde0e2b-360c-4a9e-8d49-0abe60d16e49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 24.13)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19b9ae8b-fcb0-4903-b4e9-ba40e7b17a0d")
+		(property "Sheetname" "MCU"
+			(at 22.86 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 22.86 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Heat" output
+			(at 48.26 35.56 0)
+			(uuid "ed35580d-56f6-4b6d-a702-a18839f328e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Fan" output
+			(at 48.26 45.72 0)
+			(uuid "a615dee9-8a5f-44c3-a40e-3a556d3bfbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" output
+			(at 48.26 26.67 0)
+			(uuid "eed790e6-453a-4e8e-9e74-a45d9755f377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 48.26 29.21 0)
+			(uuid "d95aeb2f-e76c-4d09-9587-2738e9152abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 55.88)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57611136-af7d-4624-9b72-810bd01622a0")
+		(property "Sheetname" "EEPROM"
+			(at 105.41 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EEPROM.kicad_sch"
+			(at 105.41 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 58.42 180)
+			(uuid "73fb2f69-51c3-4de0-906c-779de308c254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 60.96 180)
+			(uuid "b5caffcb-1f9f-409f-a184-1b7c7b0ade6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 125.73)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "784ecf23-acb9-4a3e-96f7-f1bac12c22f6")
+		(property "Sheetname" "DAC"
+			(at 105.41 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 105.41 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 128.27 180)
+			(uuid "343771ec-5161-4d77-a1f2-021a73425655")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 130.81 180)
+			(uuid "106a0970-3d4b-4238-96ec-d7ea8a4ea652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 83.82)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "849c450e-4625-45de-8bb3-169043ccaec9")
+		(property "Sheetname" "ADC"
+			(at 105.41 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 105.41 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 88.9 180)
+			(uuid "da1d5609-7fa5-4d09-be7f-91161e046f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 86.36 180)
+			(uuid "3a8bb024-3c03-46ad-bd07-4618bd406a85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 97.79)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f64f6fa-d74f-48c0-a677-44b908dc5eac")
+		(property "Sheetname" "RTC"
+			(at 105.41 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 105.41 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 100.33 180)
+			(uuid "e9f1a472-f179-4121-9616-4bdd8112c78f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 102.87 180)
+			(uuid "cb194282-b69c-475e-b896-c498c0b40234")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 139.7)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0d2c8c5-43a6-4565-8883-c9bfcfec40ab")
+		(property "Sheetname" "MCP9808"
+			(at 105.41 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCP9808.kicad_sch"
+			(at 105.41 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 142.24 180)
+			(uuid "f9bc0700-6851-4b0e-b311-affad22a46e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 144.78 180)
+			(uuid "1fb9db84-cb16-4969-a10f-ece30e42d15c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 24.13)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f088577b-4e14-4bb5-a088-4497f10964b7")
+		(property "Sheetname" "LM75 + LED + Fan"
+			(at 105.41 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LM75.kicad_sch"
+			(at 105.41 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 29.21 180)
+			(uuid "2c2d8d84-fb61-4407-8e5e-987e6ee7ecd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 105.41 26.67 180)
+			(uuid "74c547ab-a876-454d-91bc-698d4fe7d383")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Heat" input
+			(at 105.41 35.56 180)
+			(uuid "8710cc8b-81b3-4be0-8342-bf26e990af6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Fan" input
+			(at 105.41 45.72 180)
+			(uuid "13b553c2-c20c-4444-88bd-0a9043058bd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "I2C Sensor Board_V2"
+				(path "/90d7a1a3-3ad9-43d8-bdb8-b5a3aff8855e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
